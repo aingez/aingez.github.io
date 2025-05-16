@@ -26,7 +26,7 @@ class MyNav extends HTMLElement {
         }
       </style>
       <a href="index.html">Home</a>
-      <a href="experience.html">Exprience</a>
+      <a href="exprience.html">Exprience</a>
       <a href="contact.html">Contact</a>
     `;
     shadow.appendChild(wrapper);
