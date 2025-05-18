@@ -2,40 +2,40 @@
     "Project": {
         "Side": [
             {
-                "name": "RC100 EV Conversion",
-                "pic": "asset/pic/proj-rc100-ev.JPG",
-                "date": "APR 2022",
-                "desc": "Compete EVAT EV-Conversion, Converting broken bike to EV from zero",
+                "name": "Sim-Racing",
+                "pic": "asset/pic/proj-simracing.jpg",
+                "date": "On-going",
+                "desc": "Its getting serious on this hobby, Rally & Track focus practice (Richar Burns Rally & Assettor Corsa)",
                 "link": ""
             },
             {
                 "name": "Voron 2.4 Build",
                 "pic": "asset/pic/proj-voron24.jpg",
                 "date": "MAY 2023",
-                "desc": "Open Source FDM Build ",
-                "link": ""
+                "desc": "Open Source FDM Build",
+                "link": "https://vorondesign.com/voron2.4"
             },
             {
-                "name": "Sim-Racing",
-                "pic": "asset/pic/proj-simracing.jpg",
-                "date": "On-going",
-                "desc": "Its getting serious on this hobby",
+                "name": "RC100 EV Conversion",
+                "pic": "asset/pic/proj-rc100-ev.JPG",
+                "date": "APR 2022",
+                "desc": "Compete EVAT EV-Conversion, Converting broken bike to EV from zero",
                 "link": ""
             }
         ],
         "Work": [
             {
-                "name": "Safety-Stock Web-App",
-                "pic": "asset/pic/proj-coop1.jpg",
-                "date": "NOV 2024",
-                "desc": "Cooperative project with Siam Toyota, Develop WMS Web-App, Redesign Staff's Workflow",
+                "name": "SD-WAN Study Case Design",
+                "pic": "asset/pic/proj-coop2.png",
+                "date": "APR 2025",
+                "desc": "Cooperative project with Huawei Thailand, Study and redesign on SD-WAN study case",
                 "link": ""
             },
             {
-                "name": "SD-WAN Study Case Design",
-                "pic": "asset/pic/proj-coop2.jpg",
-                "date": "APR 2025",
-                "desc": "Cooperative project with Huawei Thailand, Study and redesign on SD-WAN study case",
+                "name": "Safety-Stock Web-App",
+                "pic": "asset/pic/proj-coop1.png",
+                "date": "NOV 2024",
+                "desc": "Cooperative project with Siam Toyota, Develop WMS Web-App, Redesign Staff's Workflow",
                 "link": ""
             }
         ]
