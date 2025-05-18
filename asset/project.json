@@ -4,34 +4,39 @@
             {
                 "name": "RC100 EV Conversion",
                 "pic": "asset/pic/proj-rc100-ev.jpg",
-                "date": "01/01/01",
-                "desc": "Hello Test"
+                "date": "APR 2022",
+                "desc": "Compete EVAT EV-Conversion, Converting broken bike to EV from zero",
+                "link": ""
             },
             {
                 "name": "Voron 2.4 Build",
-                "pic": "asset/pic/test.jpg",
-                "date": "01/01/01",
-                "desc": "Hello Test"
+                "pic": "asset/pic/proj-voron24.jpg",
+                "date": "MAY 2023",
+                "desc": "Open Source FDM Build ",
+                "link": ""
             },
             {
                 "name": "Sim-Racing",
-                "pic": "asset/pic/test.jpg",
+                "pic": "asset/pic/proj-simracing.jpg",
                 "date": "On-going",
-                "desc": "Hello Test"
+                "desc": "Its getting serious on this hobby",
+                "link": ""
             }
         ],
         "Work": [
             {
                 "name": "Safety-Stock Web-App",
-                "pic": "asset/pic/test.jpg",
-                "date": "On-going",
-                "desc": "Hello Test"
+                "pic": "asset/pic/proj-coop1.jpg",
+                "date": "NOV 2024",
+                "desc": "Cooperative project with Siam Toyota, Develop WMS Web-App, Redesign Staff's Workflow",
+                "link": ""
             },
             {
                 "name": "SD-WAN Study Case Design",
-                "pic": "asset/pic/test.jpg",
-                "date": "On-going",
-                "desc": "Hello Test"
+                "pic": "asset/pic/proj-coop2.jpg",
+                "date": "APR 2025",
+                "desc": "Cooperative project with Huawei Thailand, Study and redesign on SD-WAN study case",
+                "link": ""
             }
         ]
     }

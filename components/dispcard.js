@@ -1,35 +1,51 @@
 const template = document.createElement('template');
 template.innerHTML = `
   <style>
-    .card {
-      border: 1px solid #ccc;
-      padding: 1rem;
-      font-family: Arial, sans-serif;
-      max-width: 300px;
-    }
-    h2 {
-        text-align: left;
-        font-size: 1.8em;
-        margin-bottom: 0.2em;
-        font-weight: 200;
-    }
-    time {
-      font-size: 0.9em;
-      color: #666;
-      display: block;
-      margin-bottom: 1rem;
-    }
-    .info {
-      font-size: 1em;
-      color: #000;
-      opacity: 0.8;
-    }
-  </style>
+  .card {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 10px 0;
+    gap: 16px;
+  }
+
+  ::slotted(img[slot="image"]) {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .card-content {
+    flex: 1;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 200;
+  }
+
+  time {
+    display: block;
+    color: gray;
+    font-size: 0.9em;
+    margin: 4px 0 10px;
+  }
+
+  .info {
+    font-size: 1em;
+  }
+</style>
+
   <div class="card">
     <slot name="image"></slot>
-    <h2 id="title"></h2>
-    <time id="date"></time>
-    <div class="info"><slot></slot></div>
+    <div>
+      <h3 id="title"></h3>
+      <time id="date"></time>
+      <div class="info"><slot></slot></div>
+      <div class="link"><slot></slot></div>
+    </div>
   </div>
 `;
 

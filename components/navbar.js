@@ -10,7 +10,7 @@ class MyNav extends HTMLElement {
           padding: 0.5rem;
           display: flex;
           gap: 1rem;
-          border-bottom: solid;
+          border-bottom: solid 1px;
           font-weight: 100;
         }
         a {
