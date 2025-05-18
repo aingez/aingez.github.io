@@ -70,11 +70,12 @@ ul {
 }
 
 a {
-    color: #0077cc;
+    color: #984500;
     text-decoration: none;
 }
 
 a:hover {
+    color: #585858;
     text-decoration: underline;
 }
 

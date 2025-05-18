@@ -21,12 +21,12 @@ class MyNav extends HTMLElement {
         }
         a:hover {
           transition: 1s;
-          text-decoration: underline;
           opacity: 100%;
         }
       </style>
       <a href="index.html">Home</a>
-      <a href="experience.html">Experience</a>
+      <a href="project.html">Project</a>
+      <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     `;
     shadow.appendChild(wrapper);
