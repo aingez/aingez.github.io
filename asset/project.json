@@ -1,0 +1,38 @@
+{
+    "Project": {
+        "Side": [
+            {
+                "name": "RC100 EV Conversion",
+                "pic": "asset/pic/proj-rc100-ev.jpg",
+                "date": "01/01/01",
+                "desc": "Hello Test"
+            },
+            {
+                "name": "Voron 2.4 Build",
+                "pic": "asset/pic/test.jpg",
+                "date": "01/01/01",
+                "desc": "Hello Test"
+            },
+            {
+                "name": "Sim-Racing",
+                "pic": "asset/pic/test.jpg",
+                "date": "On-going",
+                "desc": "Hello Test"
+            }
+        ],
+        "Work": [
+            {
+                "name": "Safety-Stock Web-App",
+                "pic": "asset/pic/test.jpg",
+                "date": "On-going",
+                "desc": "Hello Test"
+            },
+            {
+                "name": "SD-WAN Study Case Design",
+                "pic": "asset/pic/test.jpg",
+                "date": "On-going",
+                "desc": "Hello Test"
+            }
+        ]
+    }
+}

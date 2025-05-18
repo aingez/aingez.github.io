@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css">
 
     <script type="module" src="components/navbar.js"></script>
+    <script type="module" src="components/dispcard.js"></script>
 
 </head>
 
@@ -15,45 +16,14 @@
 
     <h2>Side Project</h2>
 
-    <table>
-        <tr>
-            <th>Project</th>
-            <th>Year</th>
-            <th>Details</th>
-        </tr>
-        <tr>
-            <td>Sim-Racing</td>
-            <td>2025</td>
-            <td>
-                <ul>
-                    <li>On-going Practice</li>
-                    <li>Rally & Circuit Focus</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>3D Printing</td>
-            <td>2024</td>
-            <td>
-                <ul>
-                    <li><a href="https://www.reddit.com/r/voroncorexy/comments/1aihe51/serial_request_v24_discord_ziakorzom/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button"
-                            target="_blank">VORON
-                            2.4 Build</a></li>
-                    <li>Ender 3 Troubleshooting / Modding / Printing / Disappointing</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Electric Bike Conversion</td>
-            <td>2022</td>
-            <td>
-                <ul>
-                    <li>EVAT x EGAT 2022</li>
-                    <li>Conversion Design / Restoration / Assembly / Wiring / CAD / Fabrication</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+    <!-- <my-card title="Example Article" date="2025-05-18">
+        <img slot="image" src="asset/pic/proj-rc100-ev.JPG" alt="Image description" />
+        This is the detailed information or content inside the card.
+    </my-card> -->
+
+    <div id="card-output"></div>
+
+    <script src="helper/projectDisp_side.js"></script>
 </body>
 
 </html>
