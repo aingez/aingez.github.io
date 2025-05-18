@@ -2,7 +2,7 @@ fetch("../asset/project.json")
     .then(response => response.json())
     .then(data => {
         const sideProjects = data.Project.Work;
-        const container = document.querySelector("#card-output");
+        const container = document.querySelector("#card-output-work");
 
         for (let item of sideProjects) {
             const card = document.createElement("my-card");
