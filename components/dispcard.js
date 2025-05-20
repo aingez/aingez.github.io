@@ -31,6 +31,7 @@ template.innerHTML = `
     display: block;
     color: gray;
     font-size: 0.9em;
+    font-weight: 100;
     margin: 4px 0 10px;
   }
 

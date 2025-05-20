@@ -10,18 +10,17 @@ class MyNav extends HTMLElement {
           padding: 0.5rem;
           display: flex;
           gap: 1rem;
-          border-bottom: solid 1px;
-          font-weight: 100;
+          border-bottom: solid 1px rgb(227, 227, 227);;
         }
         a {
           color: black;
           text-decoration: none;
           font-size: 1.5em;
-          opacity: 50%;
+          font-weight: 100;
         }
         a:hover {
           transition: 1s;
-          opacity: 100%;
+          font-weight: 200;
         }
       </style>
       <a href="index.html">Home</a>
