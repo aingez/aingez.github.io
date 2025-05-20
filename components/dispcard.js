@@ -2,10 +2,11 @@ const template = document.createElement('template');
 template.innerHTML = `
   <style>
   .card {
+    font-family: "Gill Sans", sans-serif;
     display: flex;
     align-items: flex-start;
-    border: 1px solid #ccc;
-    padding: 16px;
+    // border: 1px solid #ccc;
+    // padding: 16px;
     margin: 10px 0;
     gap: 16px;
   }
