@@ -13,19 +13,9 @@ fetch("../asset/project.json")
             img.setAttribute("slot", "image");
             img.setAttribute("src", item.pic);
             img.setAttribute("alt", item.name);
+
             card.appendChild(img);
-
-            const desc = document.createElement("p");
-            desc.textContent = item.desc;
-            card.appendChild(desc);
-
-            if (item.link && item.link.trim() !== "") {
-                const link = document.createElement("a");
-                link.setAttribute("href", item.link);
-                link.setAttribute("target", "_blank");
-                link.textContent = "More Info";
-                card.appendChild(link);
-            }
+            card.appendChild(document.createTextNode(item.desc));
 
             container.appendChild(card);
         }
