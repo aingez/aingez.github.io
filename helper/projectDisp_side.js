@@ -14,8 +14,23 @@ fetch("../asset/project.json")
             img.setAttribute("src", item.pic);
             img.setAttribute("alt", item.name);
 
+            const desc = document.createElement("div");
+            desc.setAttribute("slot", "info");
+            desc.textContent = item.desc;
+
+            // Optional: Add a link if provided in the data
+            let link;
+            if (item.link) {
+                link = document.createElement("a");
+                link.setAttribute("slot", "link");
+                link.setAttribute("href", item.link);
+                link.setAttribute("target", "_blank");
+                link.textContent = "View Project";
+            }
+
             card.appendChild(img);
-            card.appendChild(document.createTextNode(item.desc));
+            card.appendChild(desc);
+            if (link) card.appendChild(link);
 
             container.appendChild(card);
         }
