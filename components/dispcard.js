@@ -11,12 +11,14 @@ template.innerHTML = `
       display: flex;
       align-items: flex-start;
       gap: 16px;
+      margin-bottom: 1rem;
     }
 
     ::slotted(img[slot="image"]) {
-      width: 200px;
+      width: 150px;
       height: auto;
       object-fit: cover;
+      border-radius: 10px;
     }
 
     .card-content {
@@ -42,6 +44,13 @@ template.innerHTML = `
       font-size: 1em;
       font-weight: 100;
       margin-top: 6px;
+      color: #000;
+    }
+
+    @media (min-width: 1300px) {
+      ::slotted(img[slot="image"]) {
+        width: 200px;
+      }
     }
   </style>
 

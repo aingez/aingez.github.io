@@ -1,24 +1,85 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
     font-family: "Gill Sans", sans-serif;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
-    background-color: #ffffff;
-    color: #333;
 }
 
-nav {
-    margin-bottom: 20px;
+.header-home {
+    background: url('/asset/pic/bgp-1.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+    color: white;
 }
 
-nav a {
-    margin-right: 10px;
-    font-weight: bold;
-    font-size: 1.5em;
-    color: rgb(0, 90, 207);
+.header-home div {
+    padding: 4rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
+.header-home h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+    white-space: nowrap;
+    padding-bottom: 1rem;
+}
+
+.header-home p {
+    font-weight: lighter;
+    font-size: 1rem;
+    margin: 0;
+}
+
+
+.my-nav {
+    padding: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.my-nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+@media (min-width: 760px) {
+    .header-home div {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .header-home h1 {
+        flex-shrink: 0;
+    }
+
+    .about table {
+        width: 700px;
+    }
+
+    .header-home p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .header-home div {
+        flex-direction: row;
+        margin: 0 2rem;
+        gap: 8rem;
+    }
+
+    .about table {
+        width: 800px;
+    }
+}
 
 h1 {
     text-align: left;
@@ -42,10 +103,29 @@ h3 {
     font-weight: 300;
 }
 
-table {
+.contact,
+.about,
+.project {
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: left;
+    max-width: 800px;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact table {
     width: 100%;
     border-collapse: collapse;
-    margin: 1em 0;
+    margin: 1rem 0;
+}
+
+.about-edu,
+.about-exp,
+.about-hobby {
+    margin: 1rem;
 }
 
 th {
@@ -68,27 +148,10 @@ td {
     color: #585858;
 }
 
-p {
-    font-size: 1em;
-    font-weight: 100;
+td a {
     color: #585858;
 }
 
-ul {
-    margin: 0;
-    padding-left: 1.2em;
-}
-
-a {
-    color: #984500;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #585858;
-    text-decoration: underline;
-}
-
-li {
-    margin-bottom: 0.4em;
+.project h2 {
+    padding: 1rem 0;
 }
