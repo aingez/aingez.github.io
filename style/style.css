@@ -112,6 +112,31 @@ h3 {
     max-width: 800px;
 }
 
+.home-my-works {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: larger;
+    h2 {
+        text-align: center;
+        margin: 1rem 0;
+    }
+}
+
+.home-my-works-link {
+    background-color: #f44336;
+    color: white;
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.home-my-works-link:hover {
+    background-color: #ef918b;
+}
+
 .contact h1 {
     text-align: center;
 }
